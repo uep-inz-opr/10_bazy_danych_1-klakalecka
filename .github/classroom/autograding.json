@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "bd_1_1",
+      "setup": "pip install -r requirements.txt",
+      "run": "python3 main.py",
+      "input": "phoneCalls.csv",
+      "output": "104956",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
