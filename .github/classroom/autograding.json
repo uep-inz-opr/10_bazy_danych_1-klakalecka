@@ -5,8 +5,8 @@
       "setup": "pip install -r requirements.txt",
       "run": "python3 main.py",
       "input": "phoneCalls.csv",
-      "output": "104956",
-      "comparison": "included",
+      "output": "(449242|104956)",
+      "comparison": "regex",
       "timeout": 10,
       "points": 4
     }
